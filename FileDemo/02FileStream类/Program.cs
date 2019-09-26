@@ -11,10 +11,10 @@ namespace _02FileStream类
     {
         static void Main(string[] args)
         {
-            #region 对比File读取数据和FileStream读取数据
+            //File类和FileStream类
+            #region 对比读取数据
             //使用File来读取数据
             //byte[] buffer = File.ReadAllBytes(@"C:\Users\Administrator.USER-20190915QG\Desktop\抽象类特点.txt");
-
             //string str = Encoding.Default.GetString(buffer);
             //Console.WriteLine(str);
             //Console.ReadKey();
@@ -35,7 +35,7 @@ namespace _02FileStream类
 
             #endregion
 
-            #region 写入数据的对比
+            #region 对比写入数据
             //使用File类来写入数据
             //string str = "今天天气不错！";
             //byte[] buffer = Encoding.Default.GetBytes(str);
@@ -53,11 +53,11 @@ namespace _02FileStream类
             //fsWrite.Close();
             //fsWrite.Dispose();
             //Console.WriteLine("写入成功！");
-            //Console.ReadKey(); 
+            //Console.ReadKey();
 
             #endregion
 
-            #region 使用using
+            #region 写在using当中
             //FileStream读取
             //using (FileStream fsRead = new FileStream(@"C:\Users\Administrator.USER-20190915QG\Desktop\抽象类特点.txt", FileMode.OpenOrCreate, FileAccess.Read))
             //{
@@ -67,12 +67,12 @@ namespace _02FileStream类
             //    Console.WriteLine(str);
             //}
             //Console.ReadKey();
-                
-            
-            
-    
+
+
+
+
             //FileStream写入
-            using(FileStream fsWrite=new FileStream(@"C:\Users\Administrator.USER-20190915QG\Desktop\new2.txt",FileMode.OpenOrCreate,FileAccess.Write))
+            using (FileStream fsWrite=new FileStream(@"C:\Users\Administrator.USER-20190915QG\Desktop\new2.txt",FileMode.OpenOrCreate,FileAccess.Write))
             {
                 string str = "今天心情很好！";
                 byte[] buffer = Encoding.Default.GetBytes(str);

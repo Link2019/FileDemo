@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01File类", "01File类\01Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02FileStream类", "02FileStream类\02FileStream类.csproj", "{C1997A82-66E7-47CD-B8A9-2489F113B995}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03使用FileStream来实现多媒体文件的复制", "03使用FileStream来实现多媒体文件的复制\03使用FileStream来实现多媒体文件的复制.csproj", "{1C593BB8-430B-45E8-A313-117FA4F33EE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C1997A82-66E7-47CD-B8A9-2489F113B995}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1997A82-66E7-47CD-B8A9-2489F113B995}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1997A82-66E7-47CD-B8A9-2489F113B995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C593BB8-430B-45E8-A313-117FA4F33EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C593BB8-430B-45E8-A313-117FA4F33EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C593BB8-430B-45E8-A313-117FA4F33EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C593BB8-430B-45E8-A313-117FA4F33EE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
